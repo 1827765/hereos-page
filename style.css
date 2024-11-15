@@ -10,12 +10,11 @@
 }
 a{
     text-decoration: none;
+    color: white;
 }
 body{
-    display: flex;
-    flex-direction: column;
     min-height: 100vh;
-    /* width: auto; */
+
 }
 
 .content{
@@ -24,7 +23,7 @@ body{
 }
 
 
-.header, .footer{
+.header{
     background-color: #1f2937;
     color: white;
     display: flex;
@@ -36,7 +35,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: fit-content;
+    /* width: fit-content; */
     margin: auto;
 }
 
@@ -78,6 +77,7 @@ p{
     font-size: 1.1rem;
     color: #e5e7eb;
     text-wrap: balance;
+    width: fit-content;
     
 }
 
@@ -86,7 +86,7 @@ div.logo{
     color: #f9faf8;
 }
 
-button{
+button, .call-action{
     color: white;
     background-color: #3882f6;
     border-radius: 5px;
@@ -111,6 +111,7 @@ img{
     display: flex;
     flex-direction: column;
     flex: auto;
+    padding: 8rem;
 }
 .random-info{
     align-self: center;
@@ -142,3 +143,50 @@ img{
     align-items: center;
     text-align: center;
 }
+
+.Quote{
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+}
+
+.Quote-body{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 10rem;
+    margin: 1rem;
+    font-size: 2.25rem;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+}
+
+
+.action{
+    display: flex;
+    justify-content: center;
+    padding: 10rem;
+
+}
+
+.call-action{
+    display: flex;
+    padding: 5rem 10rem;
+    gap: 5rem;
+}
+
+.action-button{
+    border: 2px solid white;
+}
+
+.footer{
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    flex: auto;
+    justify-content: center;
+    padding: 1rem;
+}
+
+
